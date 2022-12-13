@@ -1,0 +1,85 @@
+@font-face {
+    src: url("CursedTimerULiL.ttf");
+    font-family: TimerFont;
+    }
+
+body {
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;
+    background: #1B244A;
+    font-family: 'Happy Monkey', cursive, 'Noto Sans', sans-serif,'Orbitron', sans-serif;
+}
+
+h3 {
+    font-size: 50px;
+    margin-bottom: 0.125rem;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+}
+
+.players {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.numbers {
+    margin: 10px 50px;
+    font-family: TimerFont;
+    font-size: 90px;
+    color: #F94F6D;
+    padding: 15px 10px;
+    background: #080001;
+    width: 10.5rem;  
+    height: 6.25rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: .4rem;
+    margin: 0.625rem 3.1rem 0 2.563rem;
+}
+
+.btn {
+    color: #9AABD8;
+    background: #1B244A;
+    border-color: #9AABD8;
+    font-family: TimerFont;
+    width: 2.813rem;
+    height: 2.813rem;
+    border-radius: 4px;
+    margin: 0.625rem 0 0 0.625rem;
+    cursor: pointer;
+}
+
+.reset {
+    margin-top: 2.5rem;
+}
+
+
+.btn-reset{
+    background: #1B244A;
+    border-color: #9AABD8;
+    color: #9AABD8;
+    padding: .8em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media(max-width: 550px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
